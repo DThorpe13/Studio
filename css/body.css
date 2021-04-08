@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+  
+  .bg-custom-2 {
+  background-color: black;
+  }
+
+  
+  a:link:hover {
+      color: #80d0c7;
+  }
+
+
+  .jumbo {
+      background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) !important;
+      height: 35rem;
+      position: relative;
+  }
+
+  h1 {
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-size: 350%!important;
+    color: white!important;
+  }
+  p {
+    font-family: 'Noto Sans HK', sans-serif; 
+    font-size: 100%!important;
+    color: white; 
+  }
+
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: inline;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	/* color: #fff; */
+	font-size:14px;
+    border-radius: 0;
+    border-color: white;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	/* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2); */
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 2;
+}
+
+
+
+.head-right {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mixer {
+    opacity: .3;
+    position: relative;
+    left: -20%;
+    background-size: contain;
+}
+
+
+h2 {
+    color: #13547a;
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-size: 400%!important;
+    display: block;
+    margin: auto;
+    z-index: 2;
+}
+
+h3 {
+    font-size: 2em!important;
+    color: white;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+
+h4 {
+    font-family: 'Noto Sans HK', sans-serif; 
+    font-size: 200%!important;
+    color: white; 
+    padding-left: 12%;
+}
+
+.las {
+    font-size: 5em;
+    color: white;
+    margin: auto;
+    
+}
+
+
+.card {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) !important;
+    z-index: 1;
+    box-shadow: 2px 2px 15px lightgray ;
+    opacity: .8;
+}
+.card:hover {
+    background-image: linear-gradient(15deg, #13547a 0%, #01a592 100%) !important;
+    opacity: .9;
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.card-p {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.card-hr {
+    background-color: whitesmoke;
+}
+
+.section-2-contain {
+    position: relative;
+}
+.drums {
+    position: absolute;
+    margin: auto;
+    top: -10%;
+    left: 5%;
+    opacity: .1;
+    z-index: -2;
+}
+
+.section-3-hr {
+    background-color: white;
+    height: 1px;
+}
+
+.section-3-jumbo {
+      background-image: linear-gradient(15deg, black 0%, #13547a 100%) !important;
+      
+      height: 35rem;
+      position: relative;
+}
+
+.streaming {
+    width: 100%;
+}
+
+.musika {
+    top: 40%;
+    position: absolute;
+    z-index: 3;
+}
+
+.foot {
+    height: 20rem;
+}
+
+.foot-tab {
+    justify-content: center;
+}
+
+.foot-contain {
+    padding-left: 15%!important;
+}
+
+.foot-links {
+    color: gray;
+}
+
+.foot-links:hover {
+  text-decoration: none;
+  color: #13547a;
+}
+
+.foot-info {
+    color: gray;
+}

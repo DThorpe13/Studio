@@ -1,0 +1,51 @@
+header {
+    z-index: 1;
+}
+
+.head-logo {
+    position: relative;
+}
+.mic {
+    position: absolute;
+    left: 45%;
+    z-index: -2;
+    opacity: .1;
+}
+
+.tab {
+    color: #80d0c7;
+    padding: 1.75%;
+    z-index: 2;
+}
+
+.tab:hover {
+    color: #13547a;
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.tablinks {
+    text-align: center;
+    font-size: large;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-decoration: none;
+}
+
+.tablink {
+    padding: 1%;
+    z-index: 2;
+    color: gray;
+}
+.tablink:hover {
+    color: #80d0c7;
+    text-decoration: none;
+}
+
+.head-row {
+    background-color:#80d0c7;
+
+}
+
+.head-text {
+    margin-top: 8%;
+}
