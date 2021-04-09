@@ -38,7 +38,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: inline;
 	margin: 30px auto 0;
 	padding: 14px 15px;
-	/* color: #fff; */
+	color: #fff;
 	font-size:14px;
     border-radius: 0;
     border-color: white;
@@ -46,14 +46,18 @@ a.animated-button:link, a.animated-button:visited {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
-	overflow: hidden;
+	overflow: hidden!important;
 	letter-spacing: .08em;
-	/* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2); */
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
     transition: all 1s ease;
     z-index: 2;
+}
+
+a.animated-button.sandy-three {
+	border: 2px solid white;
+	color: #FFF;
 }
 
 
@@ -63,6 +67,10 @@ a.animated-button:link, a.animated-button:visited {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.head-text {
+    padding-left: 10%!important;
 }
 
 .mixer {
@@ -107,7 +115,7 @@ h4 {
 .card {
     background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) !important;
     z-index: 1;
-    box-shadow: 2px 2px 15px lightgray ;
+    box-shadow: 2px 2px 20px lightgray;
     opacity: .8;
 }
 .card:hover {
@@ -183,8 +191,10 @@ h4 {
 .foot-links:hover {
   text-decoration: none;
   color: #13547a;
+  font-family: 'Noto Sans JP', sans-serif; 
 }
 
 .foot-info {
     color: gray;
+    font-family: 'Noto Sans JP', sans-serif; 
 }
