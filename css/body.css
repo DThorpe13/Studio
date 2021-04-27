@@ -16,9 +16,13 @@ html, body {
 
 
   .jumbo {
-      background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) !important;
+      background-image: linear-gradient(15deg, black 0%, #6699cc 100%) !important;
       height: 35rem;
       position: relative;
+  }
+
+  .jumbo:hover {
+    background-image: linear-gradient(15deg, #6699cc 0%, black 100%) !important;
   }
 
   h1 {
@@ -38,10 +42,10 @@ a.animated-button:link, a.animated-button:visited {
 	display: inline;
 	margin: 30px auto 0;
 	padding: 14px 15px;
-	color: #fff;
+	color: white;
 	font-size:14px;
     border-radius: 0;
-    border-color: white;
+    border-color: silver;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
@@ -56,7 +60,7 @@ a.animated-button:link, a.animated-button:visited {
 }
 
 a.animated-button.sandy-three {
-	border: 2px solid white;
+	border: 2px solid silver;
 	color: #FFF;
 }
 
@@ -82,7 +86,7 @@ a.animated-button.sandy-three {
 
 
 h2 {
-    color: #13547a;
+    color: black;
     font-family: 'Noto Sans JP', sans-serif; 
     font-size: 400%!important;
     display: block;
@@ -111,16 +115,28 @@ h4 {
     
 }
 
+h6 {
+    color: silver;
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-size: 400%!important;
+    display: block;
+    margin: auto;
+    z-index: 2;
+}
+
 
 .card {
-    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%) !important; */
-    background-color: #13547a!important;
+    background-image: linear-gradient(15deg, black 0%, #6699cc 100%) !important;
+    /* background-color: black!important; */
     z-index: 1;
-    box-shadow: 2px 2px 20px lightgray;
-    opacity: .7;
+    box-shadow: 2px 2px 20px silver;
+    opacity: .9;
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
 }
 .card:hover {
-    background-image: linear-gradient(15deg, #13547a 0%, #01a592 100%) !important;
+    background-image: linear-gradient(15deg, #6699cc 0%, black 100%) !important;
     opacity: .9;
     -webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -136,11 +152,15 @@ h4 {
 }
 
 .card-hr {
-    background-color: whitesmoke;
+    background-color: silver;
 }
 
 .section-2-contain {
     position: relative;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    
 }
 .drums {
     position: absolute;
@@ -157,10 +177,13 @@ h4 {
 }
 
 .section-3-jumbo {
-      background-image: linear-gradient(15deg, black 0%, #13547a 100%) !important;
-      
+      background-image: linear-gradient(15deg, black 0%, #6699cc 100%) !important;
       height: 35rem;
       position: relative;
+}
+
+.section-3-jumbo:hover {
+    background-image: linear-gradient(15deg, #6699cc 0%, black 100%) !important;
 }
 
 .streaming {
@@ -174,7 +197,7 @@ h4 {
 }
 
 .foot {
-    height: 20rem;
+    background-color: black;
 }
 
 .foot-tab {
@@ -186,16 +209,22 @@ h4 {
 }
 
 .foot-links {
-    color: gray;
+    color: silver;
 }
 
 .foot-links:hover {
   text-decoration: none;
-  color: #13547a;
+  color: #6699cc;
   font-family: 'Noto Sans JP', sans-serif; 
 }
 
 .foot-info {
-    color: gray;
+    color: silver;
     font-family: 'Noto Sans JP', sans-serif; 
+    padding-left: 15%!important;
+}
+
+.main {
+    background-color: silver;
+    z-index: -5;
 }

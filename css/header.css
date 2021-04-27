@@ -1,5 +1,5 @@
 header {
-    z-index: 1;
+    background-color: black;
 }
 
 .head-logo {
@@ -13,13 +13,13 @@ header {
 }
 
 .tab {
-    color: #80d0c7;
+    color: silver;
     padding: 1.75%;
     z-index: 2;
 }
 
 .tab:hover {
-    color: #13547a;
+    color: #6699cc;
     text-decoration: none;
     transform: translateY(-5px);
 }
@@ -34,10 +34,10 @@ header {
 .tablink {
     padding: 1%;
     z-index: 2;
-    color: gray;
+    color: silver;
 }
 .tablink:hover {
-    color: #80d0c7;
+    color: #6699cc;
     text-decoration: none;
 }
 
@@ -48,4 +48,13 @@ header {
 
 .head-text {
     margin-top: 8%;
+}
+
+.banner {
+    justify-content: center;
+}
+
+.banner-img {
+    margin: auto;
+    display: block;
 }
