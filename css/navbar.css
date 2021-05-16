@@ -1,0 +1,27 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.foot-links {
+    color: silver!important;
+    font-family: "Verdana", sans-serif;
+}
+
+.foot-links:hover {
+    text-decoration: none!important;
+    color: #add8e6!important;
+}
+
+.foot-info {
+    color: silver;
+}
+
+.nav-top {
+    background-image: linear-gradient(to right, silver 10%, #add8e6);
+    font-size: 120%!important;
+    font-family: "Verdana", sans-serif;
+    left: 5%;
+    border-radius: 25%;
+    
+}
+
