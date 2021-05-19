@@ -48,6 +48,7 @@ ol:hover {
 
 li {
     padding-left: 10%!important;
+    font-size: 110%;
 }
 li:hover {
     color: #00cdbe;
