@@ -1,0 +1,73 @@
+body {
+    background-color: black!important;
+    font-family: "Verdana", sans-serif;
+}
+
+li {
+    padding-left: 10%!important;
+}
+
+.hr {
+    background-color: #00cdbe;
+}
+
+.about-header {
+    text-align: center;
+    font-size: 200%;
+    font-family: "Verdana", sans-serif;
+    color: silver;
+    padding-top: 1%;
+}
+
+.img-no-logo {
+    border: 5px solid #add8e6!important;
+  }
+
+h1 {
+    font-size: 120%;
+    color: silver;
+}
+
+p {
+    font-size: 120%;
+    color: silver;
+}
+
+q {
+    color: silver;
+    font-size: 125%;
+}
+
+.jumbotron {
+    background-color: transparent!important;
+}
+
+.about-jumbo {
+    height: 90%;
+}
+
+li {
+    color: silver;
+    font-size: 110%;
+}
+
+.btn {
+    color: #add8e6!important;
+    border-color: #add8e6!important;
+    font-family: Verdana, sans-serif;
+    padding-top: 5%;
+}
+
+.btn:hover {
+    color: #00cdbe!important;
+    border-color: #00cdbe!important;
+    background-color: transparent!important;
+}
+
+.pro-btn {
+    width: 80%;
+}
+
+.gal-btn {
+    width: 80%;
+}
