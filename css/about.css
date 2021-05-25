@@ -73,7 +73,7 @@ li {
 }
 
 .book-now {
-    background-image: linear-gradient( #add8e6 50%, #add8f0);
+    background-image: linear-gradient( #add8e6 50%, #add8e1);
     padding-top: 2em;
     padding-bottom: 2em;
     border-radius: 15px 15px;
@@ -82,4 +82,29 @@ li {
 .booking {
     text-align: center;
     color: black!important;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.video-content {
+    color: silver;
+    text-align: end;
+    text-decoration: none;
+}
+
+.video-content:hover {
+    color: #add8e6;
+    
 }
