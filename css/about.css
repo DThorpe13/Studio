@@ -71,3 +71,15 @@ li {
 .gal-btn {
     width: 80%;
 }
+
+.book-now {
+    background-image: linear-gradient( #add8e6 50%, #add8f0);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 15px 15px;
+}
+
+.booking {
+    text-align: center;
+    color: black!important;
+}
