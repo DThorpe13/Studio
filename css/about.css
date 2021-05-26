@@ -207,6 +207,7 @@ li {
     border-radius: 4px;
     display: block;
     width: 80%;
+    text-decoration: none;
   }
   
   form > textarea{
