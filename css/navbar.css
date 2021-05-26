@@ -20,7 +20,8 @@ html, body {
 }
 
 .nav-top {
-    background-image: linear-gradient(to right, silver 10%, #add8e6);
+    /* background-image: linear-gradient(to right, black, black); */
+    
     font-size: 120%!important;
     font-family: "Verdana", sans-serif;
     /* left: 5%; */
@@ -28,3 +29,19 @@ html, body {
     
 }
 
+.nav-item {
+    color: silver!important;
+    display: inline-block!important;
+}
+
+
+.nav-link {
+    color: silver!important;
+}
+
+.nav ul {
+    list-style: none!important;
+    text-align: center!important;
+ }
+ 
+ 
