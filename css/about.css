@@ -112,3 +112,115 @@ li {
 .gallery {
     padding-bottom: 2em;
 }
+
+.contact-us {
+    opacity: 0.4;
+    padding-bottom: 4em;
+}
+
+.get-in-touch {
+    padding-bottom: 1em;
+}
+
+.get-in-touch-p {
+    padding-bottom: 2em;
+}
+
+.headquarters {
+    padding-bottom: 1em;
+    color: silver;
+}
+
+.headquarters-p {
+    color: silver;
+}
+
+.headquarters-mail {
+    color: silver;
+    padding-bottom: 2em;
+}
+
+.socials {
+    color: silver;
+    padding-bottom: 1em;
+}
+
+.fa {
+    padding: 1%;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #add8e6;
+    padding-bottom: 2em;
+  }
+
+  .fa:hover {
+      text-decoration: none;
+      color: #00cdbe;
+      transform: translateY(-10%)!important;
+  }
+
+  .get-in-touch-form {
+      color: silver;
+      padding-bottom: 2em;
+      text-align: center;
+      
+  }
+
+  form {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    margin: 12px auto;
+    border: 2px solid #add8e6;
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+  }
+  
+  form > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    background-color:black;
+    border: 2px solid #add8e6;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  form > div > img{
+    filter:invert(1);
+    width:100px;
+  }
+  
+  form > input,
+  form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: silver;
+    background-color: #222;
+    border-radius: 4px;
+    display: block;
+    width: 80%;
+  }
+  
+  form > textarea{
+    height:100px;
+    resize:none;
+  }
+  
+  form > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: 0.35s;
+  }
+  
+  form > input[type="submit"]:hover {
+    background-color: #555;
