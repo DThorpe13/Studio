@@ -5,6 +5,7 @@ html, body {
 .foot-links {
     color: silver!important;
     font-family: "Verdana", sans-serif;
+    padding-bottom: 1em;
 }
 
 .foot-links:hover {
@@ -15,6 +16,7 @@ html, body {
 .foot-info {
     color: silver;
     font-family: "Verdana", sans-serif;
+    
 }
 
 .nav-top {
