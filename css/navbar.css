@@ -10,7 +10,7 @@ html, body {
 
 .foot-links:hover {
     text-decoration: none!important;
-    color: #add8e6!important;
+    color: #98aabd!important;
 }
 
 .foot-info {
@@ -20,14 +20,12 @@ html, body {
 }
 
 .nav-top {
-    /* background-image: linear-gradient(to right, black, black); */
-    
+    background-image: linear-gradient(to right, #4c6177, #4c6177);
     font-size: 120%!important;
     font-family: "Verdana", sans-serif;
-    /* left: 5%; */
-    /* border-radius: 25%; */
     
 }
+
 
 .nav-item {
     color: silver!important;

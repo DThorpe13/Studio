@@ -8,7 +8,7 @@ li {
 }
 
 .hr {
-    background-color: #00cdbe;
+    background-color: #4c6177;
 }
 
 .about-header {
@@ -20,7 +20,7 @@ li {
 }
 
 .img-no-logo {
-    border: 5px solid #add8e6!important;
+    border: 5px solid #98aabd!important;
   }
 
 h1 {
@@ -52,15 +52,15 @@ li {
 }
 
 .btn {
-    color: #add8e6!important;
-    border-color: #add8e6!important;
+    color: #98aabd!important;
+    border-color: #98aabd!important;
     font-family: Verdana, sans-serif;
     padding-top: 5%;
 }
 
 .btn:hover {
-    color: #00cdbe!important;
-    border-color: #00cdbe!important;
+    color: #4c6177!important;
+    border-color: #4c6177!important;
     background-color: transparent!important;
 }
 
@@ -73,7 +73,7 @@ li {
 }
 
 .book-now {
-    background-image: linear-gradient( #add8e6 50%, #add8e1);
+    background-image: linear-gradient( #4c6177 50%, #4c6177);
     padding-top: 2em;
     padding-bottom: 2em;
     border-radius: 15px 15px;
@@ -81,7 +81,7 @@ li {
 
 .booking {
     text-align: center;
-    color: black!important;
+    color: silver!important;
 }
 
 .video-responsive{
@@ -105,7 +105,7 @@ li {
 }
 
 .video-content:hover {
-    color: #add8e6;
+    color: #98aabd;
     
 }
 
@@ -152,13 +152,13 @@ li {
     text-align: center;
     margin: auto;
     text-decoration: none;
-    color: #add8e6;
+    color: #98aabd;
     padding-bottom: 2em;
   }
 
   .fa:hover {
       text-decoration: none;
-      color: #00cdbe;
+      color: #4c6177;
       transform: translateY(-10%)!important;
   }
 
@@ -187,7 +187,7 @@ li {
     padding:0 20px;
     transform:translate(-50%,-50%);
     background-color:black;
-    border: 2px solid #add8e6;
+    border: 2px solid #98aabd;
     border-radius: 20px;
     text-align:center;
   }
@@ -201,9 +201,9 @@ li {
   form > textarea {
     padding: 12px;
     margin: 12px auto;
-    border: 1px solid #ccc;
+    border: 1px solid #98aabd;
     color: silver;
-    background-color: #222;
+    background-color: transparent;
     border-radius: 4px;
     display: block;
     width: 80%;
@@ -224,5 +224,5 @@ li {
   }
   
   form > input[type="submit"]:hover {
-    background-color: #555;
+    background-color: transparent;
   }

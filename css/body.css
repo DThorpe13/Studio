@@ -3,10 +3,10 @@ body {
 }
 .las {
     font-size: 700%!important;
-    color: #add8e6!important;   
+    color: #98aabd!important;   
 }
 .las:hover {
-    color: #00cdbe!important;
+    color: #4c6177!important;
     transform: translateY(-10%);
 }
 
@@ -21,20 +21,20 @@ body {
 }
 
 .btn {
-    color: #add8e6!important;
-    border-color: #add8e6!important;
+    color: #98aabd!important;
+    border-color: #98aabd!important;
     font-family: Verdana, sans-serif;
     padding-top: 5%;
 }
 
 .btn:hover {
-    color: #00cdbe!important;
-    border-color: #00cdbe!important;
+    color: #4c6177!important;
+    border-color: #4c6177!important;
     background-color: transparent!important;
 }
 
 .hr {
-    background-color: #00cdbe;
+    background-color: #4c6177;
 }
 
 ol {
@@ -42,16 +42,13 @@ ol {
  font-family: "Verdana", sans-serif;
  text-align: center;
 }
-ol:hover {
-    color: #00cdbe;
-}
 
 li {
     padding-left: 10%!important;
     font-size: 110%;
 }
 li:hover {
-    color: #00cdbe;
+    color: #98aabd;
 }
 
 .book-now {
@@ -77,16 +74,16 @@ li:hover {
     text-align: center;
     margin: auto;
     text-decoration: none;
-    color: #add8e6;
+    color: #98aabd;
   }
 
   .fa:hover {
       text-decoration: none;
-      color: #00cdbe;
+      color: #4c6177;
       transform: translateY(-10%)!important;
   }
 
 .contact-hr {
-    background-color: #00cdbe;
+    background-color: #98aabd;
     width: 90%;
 }
