@@ -3,7 +3,7 @@ body {
 }
 .las {
     font-size: 700%!important;
-    color: #98aabd!important;   
+    color: #4c6177!important;   
 }
 .las:hover {
     color: #4c6177!important;
@@ -74,7 +74,7 @@ li:hover {
     text-align: center;
     margin: auto;
     text-decoration: none;
-    color: #98aabd;
+    color: #4c6177;
   }
 
   .fa:hover {
