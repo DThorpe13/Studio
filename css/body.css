@@ -21,15 +21,15 @@ body {
 }
 
 .btn {
-    color: #98aabd!important;
-    border-color: #98aabd!important;
+    color: #4c6177!important;
+    border-color: #4c6177!important;
     font-family: Verdana, sans-serif;
     padding-top: 5%;
 }
 
 .btn:hover {
-    color: #4c6177!important;
-    border-color: #4c6177!important;
+    color: #98aabd!important;
+    border-color: #98aabd!important;
     background-color: transparent!important;
 }
 
