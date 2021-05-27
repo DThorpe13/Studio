@@ -8,7 +8,7 @@ li {
 }
 
 .hr {
-    background-color: #4c6177;
+    background-color: #36454f;
 }
 
 .about-header {
@@ -174,7 +174,7 @@ li {
     padding-right:25px;
     padding-top:60px;
     margin: 12px auto;
-    border: 2px solid #add8e6;
+    border: 2px solid #4c6177;
     border-radius: 20px;
     position:relative;
     z-index:1;
@@ -187,7 +187,7 @@ li {
     padding:0 20px;
     transform:translate(-50%,-50%);
     background-color:black;
-    border: 2px solid #98aabd;
+    border: 2px solid #4c6177;
     border-radius: 20px;
     text-align:center;
   }

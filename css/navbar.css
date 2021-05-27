@@ -20,7 +20,7 @@ html, body {
 }
 
 .nav-top {
-    background-image: linear-gradient(to right, #4c6177, #4c6177);
+    background-image: linear-gradient(to right, #36454f, #36454f)!important;
     font-size: 120%!important;
     font-family: "Verdana", sans-serif;
 }
