@@ -2,6 +2,22 @@ html, body {
     overflow-x: hidden;
 }
 
+.img-header {
+    width: 100%;
+  position: relative;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.img-logo {
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 1%;
+  left: 0;
+  right: 0;
+}
+
 .foot-contain {
     margin-bottom: 1em;
 }
