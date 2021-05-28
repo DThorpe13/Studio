@@ -2,10 +2,18 @@ html, body {
     overflow-x: hidden;
 }
 
+.foot-contain {
+    margin-bottom: 1em;
+}
+
+h5 {
+    padding-left: 1em;
+}
+
 .foot-links {
     color: silver!important;
     font-family: "Verdana", sans-serif;
-    padding-bottom: 1em;
+    
 }
 
 .foot-links:hover {
@@ -16,6 +24,7 @@ html, body {
 .foot-info {
     color: silver;
     font-family: "Verdana", sans-serif;
+    padding-left: 1em;
     
 }
 
@@ -36,5 +45,12 @@ html, body {
     color: silver!important;
 }
 
+.phone {
+    color: #4c6177;
+}
+
+.phone:hover {
+    color: #98aabd;
+}
  
  
