@@ -12,6 +12,7 @@ body {
 
 .jumbo {
     background-color: transparent!important;
+    margin-bottom: 2em;
 }
 
 .record-section {
@@ -25,6 +26,7 @@ body {
     border-color: #4c6177!important;
     font-family: Verdana, sans-serif;
     padding-top: 5%;
+    margin-bottom: 2em;
 }
 
 .btn:hover {
@@ -56,13 +58,14 @@ li:hover {
     border-color: #4c6177!important;
     background-color: transparent!important;
     color: silver;
-    height: 100%;
+    height: 90%;
+    margin-bottom: 2em;
 }
 
 .contact-today {
     background-color: transparent!important;
     color: silver;
-    height: 100%;
+    height: 90%;
     text-align: center;
     font-family: "Verdana", sans-serif;
 }

@@ -9,6 +9,7 @@ li {
 
 .hr {
     background-color: #36454f;
+    margin-bottom: 2em;
 }
 
 .about-header {
@@ -17,10 +18,12 @@ li {
     font-family: "Verdana", sans-serif;
     color: silver;
     padding-top: 1%;
+    
 }
 
 .img-no-logo {
     border: 5px solid #98aabd!important;
+    margin-bottom: 2em;
   }
 
 h1 {
@@ -31,6 +34,7 @@ h1 {
 p {
     font-size: 120%;
     color: silver;
+    margin-bottom: 1em;
 }
 
 q {
@@ -52,15 +56,15 @@ li {
 }
 
 .btn {
-    color: #98aabd!important;
-    border-color: #98aabd!important;
+    color: #4c6177!important;
+    border-color: #4c6177!important;
     font-family: Verdana, sans-serif;
     padding-top: 5%;
 }
 
 .btn:hover {
-    color: #4c6177!important;
-    border-color: #4c6177!important;
+    color: #98aabd!important;
+    border-color: #98aabd!important;
     background-color: transparent!important;
 }
 
